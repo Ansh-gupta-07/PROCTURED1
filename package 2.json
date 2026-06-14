@@ -11,9 +11,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:linux": "vite build && electron-builder --linux",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build:linux": "vite build && electron-builder --linux"
   },
   "build": {
     "appId": "com.exam.hopeos",
@@ -27,10 +25,7 @@
       "package.json"
     ],
     "linux": {
-      "target": [
-        "AppImage",
-        "deb"
-      ],
+      "target": ["AppImage", "deb"],
       "category": "Education"
     }
   },
@@ -43,7 +38,6 @@
     "@vitejs/plugin-react": "^4.5.2",
     "electron": "^42.4.0",
     "electron-builder": "^26.15.3",
-    "gh-pages": "^6.3.0",
     "vite": "^8.0.12"
   }
 }

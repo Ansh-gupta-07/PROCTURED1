@@ -99,23 +99,6 @@ export default function UnlockScreen({ onUnlock }) {
           <p>Algorithm: AES-256-GCM + ChaCha20-Poly1305</p>
           <p style={{ marginTop: 4 }}>Any unauthorized access attempt will be logged to NTA servers.</p>
         </div>
-
-        {/* Temporary Deployment Details */}
-        <div style={{ marginTop: 30, padding: 15, border: '1px solid var(--accent)', borderRadius: 4, backgroundColor: 'rgba(0, 255, 255, 0.05)', fontSize: 12, textAlign: 'left', color: 'var(--text-muted)' }}>
-          <strong style={{ color: 'var(--accent)', display: 'block', marginBottom: 10 }}>[ TESTING CREDENTIALS ]</strong>
-          <div style={{ marginBottom: 10 }}>
-            <strong>KEYS:</strong><br/>
-            1. Authority Key: <code style={{ color: 'var(--text)' }}>NTA_AUTH_CHACHA_2026</code><br/>
-            2. Framing Key: <code style={{ color: 'var(--text)' }}>HOPE_OS_MASTER_KEY_2026</code>
-          </div>
-          <div>
-            <strong>LOGIN:</strong><br/>
-            Admin Username: <code style={{ color: 'var(--text)' }}>admin</code><br/>
-            Admin Password: <code style={{ color: 'var(--text)' }}>admin</code><br/><br/>
-            Student Roll: <code style={{ color: 'var(--text)' }}>20260101</code><br/>
-            Student Pass: <code style={{ color: 'var(--text)' }}>password123</code>
-          </div>
-        </div>
       </div>
     </div>
   )
