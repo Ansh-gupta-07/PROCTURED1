@@ -1,0 +1,7 @@
+# NTA CENTER MASTER KEY
+
+This key is required to unlock the zero-knowledge vault before the examination starts, and is also required in the NTA Admin Dashboard to decrypt student submissions.
+
+KEYS:
+1. Authority Key (ChaCha20 Layer): NTA_AUTH_CHACHA_2026
+2. Framing Key (AES-256 Layer): HOPE_OS_MASTER_KEY_2026
